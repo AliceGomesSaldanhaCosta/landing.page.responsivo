@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+   
+    
+    <div class="header">
+        <h1 id="titulo">Receita de brownie de chocolate</h1>
+        <button type="button" onclick='document.getElementById("titulo").innerHTML = "Melhor brownie"'' >Mudar titulo</button>
+    </div>
+
+    <p id="a">  A melhor receita </p>
+
+    <button type="button" onclick="document.getElementById('a').style.color='brown'">Clica Aqui!</button>
+    <div class="row">
+        <div class="col-3">
+            <h2>Ingredientes</h2>
+            <p>
+            <li>5 colheres de manteiga</li>
+            <li>3 ovos</li>
+            <li>3 xicara de achocolatado</li>
+            <li>6 colheres de açúcar</li>
+            <li>12 colheres de farinha de trigo</li>                                                         
+            </p>
+        </div>
+        <div>
+        <button type="button" onclick="document.getElementById('exemplo').style.display='none'">Esconder!</button>
+
+        <button type="button" onclick="document.getElementById('exemplo').style.display='block'">Mostrar!</button>
+
+        <button onclick="document.getElementById('imag2').src='https://i0.wp.com/essareceitafunciona.com.br/wp-content/uploads/2022/06/Receita-facil-de-brownie-Essa-Receita-Funciona-6.jpg?resize=960%2C640&ssl=1'" > Mudar a imagem </button>
+  
+        <div id="exemplo" style="display:block">
+            <div class="divc">
+                <img id="imag2" width="40%" height="40%" src ="https://static.itdg.com.br/images/1200-675/0191a4f23349e54e618a65f2051d68a8/shutterstock-1915577575-2-.jpg" alt="">
+            </div>
+        </div>
+  
+          <p>
+        <div class="col-9">
+            
+       
+        </div>
+
+        <div class="col-12">
+            <h2>MODO DE PREPARO</h2>
+           
+    <ol type="1">
+        <h2>Modo de preparo</h2>
+        <ol type="1">
+        <li>Derreta a manteiga e reserve</li>
+        <li>Enquanto derrete a manteiga, misture os 3 ovos e a açúcar e misture bem</li>
+        <li>Acrescente a manteiga derretida no ovo e o açúcar</li>
+        <li>Agora é so misturar o achocolatado e o trigo</li>
+        <li>Unte uma forma com manteiga e achocolatado</li>
+        <li>Leve ao forno a 180° C por 30 minutos</li>
+        </ol>
+        <p id="inicio"> Ao fazer a receita....</p>
+
+    <button type="button" onclick=
+    'document.getElementById("inicio").innerHTML = "Agora é só se deliciar!"'> Só Clicar!</button>
+        </div>
+
+        <br>
+       
+        <a href="https://www.tudogostoso.com.br/receita/306823-brownie-simples-e-rapido.html"><b>Receita original</b></a>
+    </ol>
+
+    
+        
+    </div>   
+    
+</body>
+</html>
